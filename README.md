@@ -8,9 +8,12 @@ Este proyecto tiene como objetivo transformar datos genómicos en bruto (en form
 
 ## Carpetas y programas del proyecto
 
--   `src/procesar_gff3.py`: Script principal que hace la lectura y procesamiento del GFF3.
--   `data/Fusarium_oxysporum.FO2.62.chr.gff3.gz`: Archivo de anotaciones genómicas comprimido (ejemplo).
--   `output/genes_tabla.tsv`: Archivo generado con la información procesada.
+-   `Entrega1.py`: Script principal que hace la lectura y procesamiento del GFF3.
+-   `Fusarium_oxysporum.FO2.62.chr.gff3.gz`: Archivo de anotaciones genómicas comprimido (ejemplo).
+-   `	
+Add files via upload
+1 hour ago
+Fusarium_oxysporum_mod.tsv`: Archivo generado con la información procesada.
 -   `README.md`: Documento de referencia y guía de uso.
 
 ---
@@ -39,7 +42,7 @@ c dprocesamiento_gff3
 Una vez dentro de la carpeta del proyecto, ejecute el siguiente comando:
 
 ```bash
-python src/procesar_gff3.py
+python Entrega1.py
 ```
 
 El script procesará el archivo de entrada y guardará el resultado automáticamente.
